@@ -8,6 +8,6 @@ import (
 
 func Health(mux chi.Router) {
 	mux.Get("/health", func(w http.ResponseWriter, r *http.Request) {
-		//
+		// :)
 	})
 }
