@@ -1,5 +1,9 @@
 github.com/go-chi/chi/v5 v5.2.0 h1:Aj1EtB0qR2Rdo2dG4O94RIU35w2lvQSj6BRA4+qwFL0=
 github.com/go-chi/chi/v5 v5.2.0/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
+github.com/maragudk/gomponents v0.20.0 h1:lJn5PMYHAKm8jywfk3UiL9tm54ZBkv5R5WktY4S8kxY=
+github.com/maragudk/gomponents v0.20.0/go.mod h1:nHkNnZL6ODgMBeJhrZjkMHVvNdoYsfmpKB2/hjdQ0Hg=
+github.com/maragudk/gomponents-heroicons v0.5.0 h1:R1hSNSAK4lynFHZA3ycHkIfBugEfNI0uz43WRa5+Lqo=
+github.com/maragudk/gomponents-heroicons v0.5.0/go.mod h1:BdJ7d+F4fa2wDNO6ZQ1eeVHv6GumZzek2xEBI6FIsDM=
 github.com/matryer/is v1.4.1 h1:55ehd8zaGABKLXQUe2awZ99BD/PTc2ls+KV/dXphgEQ=
 github.com/matryer/is v1.4.1/go.mod h1:8I/i5uYgLzgsgEloJE1U6xx5HkBQpAZvepWuujKwMRU=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=
@@ -8,3 +12,5 @@ go.uber.org/zap v1.27.0 h1:aJMhYGrd5QSmlpLMr2MftRKl7t8J8PTZPA732ud/XR8=
 go.uber.org/zap v1.27.0/go.mod h1:GB2qFLM7cTU87MWRP2mPIjqfIDnGu+VIO4V/SdhGo2E=
 golang.org/x/sync v0.10.0 h1:3NQrjDixjgGwUOCaF8w2+VYHv0Ve/vGYSbdkTa98gmQ=
 golang.org/x/sync v0.10.0/go.mod h1:Czt+wKu1gCyEFDUtn0jG5QVvpJ6rzVqr5aXyt9drQfk=
+maragu.dev/gomponents v1.0.0 h1:eeLScjq4PqP1l+r5z/GC+xXZhLHXa6RWUWGW7gSfLh4=
+maragu.dev/gomponents v1.0.0/go.mod h1:oEDahza2gZoXDoDHhw8jBNgH+3UR5ni7Ur648HORydM=

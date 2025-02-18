@@ -15,6 +15,10 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
+// release is set through the linker at build time, generally from a git sha.
+// Used for logging and error reporting.
+var release string
+
 func main() {
 	os.Exit(start())
 }
@@ -26,6 +30,9 @@ func start() int {
 		fmt.Println("Error setting up the logger:", err)
 		return 1
 	}
+
+	log = log.With(zap.String("release", release))
+
 	defer func() {
 		_ = log.Sync()
 	}()
@@ -35,6 +42,7 @@ func start() int {
 
 	s := server.New(server.Options{
 		Host: host,
+		Log: log,
 		Port: port,
 	})
 
